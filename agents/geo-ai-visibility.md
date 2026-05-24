@@ -56,10 +56,8 @@ Fetch `/robots.txt` from the target domain root. Parse it for directives affecti
 | PerplexityBot | Perplexity AI search |
 | Amazonbot | Amazon / Alexa AI |
 | Google-Extended | Google Gemini training (does NOT affect Google Search) |
-| Bytespider | ByteDance / TikTok AI |
-| CCBot | Common Crawl (feeds many AI models) |
-| Applebot-Extended | Apple Intelligence features |
-| FacebookBot | Meta AI features |
-| Cohere-ai | Cohere models |
-
-For 
+<!-- Personal note: Added YouBot and Meta-ExternalAgent since I've been seeing these more
+     frequently in robots.txt files lately. Worth tracking. -->
+| YouBot | You.com AI search |
+| Meta-ExternalAgent | Meta AI (Llama-based products) |
+| Bytespider | Byte
